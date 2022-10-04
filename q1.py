@@ -12,15 +12,15 @@
 # Sarah Castorena
 # 2028049
 amount = 0
-count = 0
+count = 1
 previous = None
 while count <= 10:
-    num = int(input('Enter a number: '))
+   num = int(input('Enter a number: '))
     
-    if previous is not None and (previous % 2 == 0) and (num % 2 == 0:)
-        amount = amount + 1 
-   
+   if (num % 2 == 0) and (previous is not None) and (previous % 2 == 0):
 
-    count = count + 1 
-previous = num    
+     amount = amount + 1   
+   previous = num 
+   count = count + 1   
 print(amount)
+
